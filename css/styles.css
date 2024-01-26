@@ -1,42 +1,45 @@
 body {
-  background-color: #D2B4DE;
+  background-image: linear-gradient(to left, #b35dbb, #c16ec0, #cd80c6, #d992cc, #e3a4d3);
+  width:100%;
+  height: 100%;
   font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, seriff;
-  
+   
 }
 
 header {
-    background: rgba(0,0,0,0.7);
-    width: 100%;
-    z-index: 100;
-    display: block;
-    position: fixed;
-    
+  background: rgba(0, 0, 0, 0.7);
+  width: 100;
+  z-index: 100;
+  display: block;
+  position: fixed;
+
 }
 
 
 nav {
-    float: right;
-  }
+  float: right;
+}
 
 
 nav ul {
-    list-style: none;
-    overflow: hidden; 
-  }
+  list-style: none;
+  overflow: hidden;
+}
 
 
 nav ul li {
-    float: left;
-    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, seriff;;
-    font-size: 20px;
-  }
+  float: left;
+  font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, seriff;
+  ;
+  font-size: 20px;
+}
 
 nav ul li a {
-    display: block; 
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-  }
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
 
 .img--icono {
   float: left;
@@ -79,4 +82,108 @@ nav ul li a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+
 }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+
+}
+
+.titulo {
+  align-items: center;
+  display: flex;
+  height: 400;
+  justify-content: center;
+  width: 300 px;
+  color: #D2B4DE;
+}
+
+
+
+
+
+
+
+.nosotros {
+  align-items: center;
+  display: flex;
+  height: 400;
+  justify-content: center;
+  width: 300 px;
+  color: #D2B4DE;
+}
+
+
+
+
+
+
+
+
+.productos {
+  align-items: center;
+  display: flex;
+  height: 400;
+  justify-content: center;
+  width: 300 px;
+  color: #D2B4DE;
+}
+
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.grid-container-listas-de-politica {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "item1 item1 item1 item1 item1"
+    "item2 item2 item2 item2 item2"
+    "item3 item3 item3 item3 item3";
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.item1 {
+  background-color: rgb(255, 0, 221);
+  grid-area: item1;
+  justify-content: center;
+  align-items: center;
+}
+
+.item2 {
+  background-color: rgb(250, 215, 221);
+  grid-area: item2;
+}
+
+.item3 {
+  background-color: rgb(255, 240, 247);
+  grid-area: item3;
+}
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(12 300px);
+  
+}
+.galeria-principal{
+  width: 100%;
+  height:100%;
+}
+
+
+    
+
+
+
