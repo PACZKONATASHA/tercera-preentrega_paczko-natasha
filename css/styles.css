@@ -12,12 +12,14 @@ header {
   z-index: 100;
   display: block;
   position: fixed;
+  
+  
 
 }
 
 
 nav {
-  float: right;
+  left: 100%;
 }
 
 
